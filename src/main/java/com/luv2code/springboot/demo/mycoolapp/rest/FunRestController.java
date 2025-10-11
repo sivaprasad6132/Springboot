@@ -10,6 +10,7 @@ public class FunRestController {
 
     @GetMapping("/")
     public String sayHello() {
-        return "This is feature 2";
+
+        return "This is feature 2, edit in main";
     }
 }
