@@ -10,6 +10,6 @@ public class FunRestController {
 
     @GetMapping("/")
     public String sayHello() {
-        return "this is edit in the github";
+        return "lets write something new in the github";
     }
 }
