@@ -9,6 +9,7 @@ public class FunRestController {
 
     @GetMapping("/")
     public String sayHello() {
-        return "my team members changes this";
+        System.out.println("This is feature 8");
+        return "my team members changes this, lets rock 8";
     }
 }
